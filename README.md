@@ -34,8 +34,11 @@ Shared code lives in the core folder.
 # How this could be deployed at scale?
 
 Build docker container
+
 Create an App Service on Azure
+
 Deploy container to app service
+
 Azure App Services' supports multiple options to scale out:
 
 - manually (you set number of containers running)
@@ -44,6 +47,9 @@ Azure App Services' supports multiple options to scale out:
 # How the data could be stored in a SQL database
 
 Create an instance of a SQL server of your favourite flavour
+
 Create a database with a things table
+
 Install your favourite nodejs sql package
+
 Refactor store.ts to now use your database as its data storage
